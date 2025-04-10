@@ -2,7 +2,7 @@
  
 Compiler for Simple C, an abridged version of the C programming language. Simple C programs are valid C programs, but not all C features are supported (like function pointers, floating point arithmetic etc... ).
 
-Targets 64 bit Intel AT&T assembly running on Rocky Linux, written in C++.
+Targets 64 bit Intel x86 assembly running on Rocky Linux, written in C++.
 
 Lexer.l constructs a C++ lexical analyzer using FLEX using regular expressions. Generates tokens for simple C keywords, operators, comments, identifiers, numbers, strings and chars from input sequences.
 
